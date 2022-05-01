@@ -46,7 +46,7 @@ public class RestClient {
 		
 		Gson gson = new Gson();
 
-		AccessCode code = null;
+		AccessCode code = new AccessCode();
 		
 		
 		OkHttpClient client = new OkHttpClient();
